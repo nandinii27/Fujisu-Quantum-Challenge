@@ -43,6 +43,5 @@ A few bugs in the main notebook are still being worked through around the final 
 |---|---|
 | `distributed_qpe_for_metalloproteins.ipynb` | Main submission notebook. |
 | `distributed_vqe_hydrogen_lattice.ipynb` | VQE on Fermi-Hubbard hydrogen lattices, centralized vs. distributed. |
-| `dqsweeptests/dqpe.py` | SquidASM/NetQASM distributed QFT validation test. |
 | `Submission_report` | Written submission report as submitted to the challenge. |
 
