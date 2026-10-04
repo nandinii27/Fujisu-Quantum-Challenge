@@ -28,13 +28,14 @@ network rather than one monolithic device can get you there sooner.
 - Implemented Kitaev iterative QPE and ran it both single-node and distributed, benchmarking
   energy accuracy against classical CASSCF/FCI, Trotter error convergence, and resource
   scaling toward larger systems (P450, FeMo-cofactor).
-- Separately validated the underlying distributed-entanglement primitives (SquidASM/NetQASM)
-  with a standalone distributed QFT test, and ran a parallel VQE study on hydrogen lattices
+-  Ran a parallel VQE study on hydrogen lattices
   to compare centralized vs. distributed variational approaches.
+-  Compared to QPE for Hydrogen running on the Fujitsu Quantum Simulator as provided by Qulacs (https://dojo.qulacs.org/en/latest/notebooks/7.1_quantum_phase_estimation_detailed.html)
+
 
 ## Status
 
-A few bugs in the main notebook are still being worked through.
+A few bugs in the main notebook are still being worked through around the final benchmarking setup. 
 
 ## Repository structure
 
